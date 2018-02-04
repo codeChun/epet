@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/*css 初始化 */
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{ margin:0; padding:0; }
+fieldset,img,input,button { border:0 none; padding:0; margin:0; outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+ul,ol { list-style:none; }
+/*input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}*/
+select, input { vertical-align:middle;}
+/*select, input, textarea { font-size:12px; margin:0; }*/
+textarea { resize:none; } /*防止拖动*/
+img { display: block;border:0; vertical-align:middle; }  
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+a{ text-decoration:none; }
+*{ box-sizing:border-box; }
+/*添加公共样式*/
+/*body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}*/
+/*清除浮动*/              
+/*******兼容ie8及以下去掉了一个冒号******/
+.clearfix:after{ content:""; display:block; height:0; clear:both; overflow:hidden; visibility:hidden; zoom:1; }
+/*a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}*/
+h1,h2,h3,h4,h5,h6 { text-decoration:none; font-weight:normal; font-size:1em; }  
+/*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{ font-style:normal; text-decoration:none; }
+
+
+/*公共类*/
+.container {  /*版心 提取 */
+    width: 1200px;
+    margin:0 auto;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.al {
+    text-align:left;
+}
+.ac {
+    text-align:center;
+}
+.ar {
+    text-align:right;
+}
+.hide {
+    display:none;
+}
+.font12{ font-size: 12px; }
+.font14{ font-size: 14px; }
+.font16{ font-size: 16px; }
+
+
+/*公共部分*/
+/************************************/
+#epet{ min-width:1200px; overflow: hidden;}
+// .fixed{ position:fixed; top:0; z-index:2; }
+// .fixed1{ position:fixed; top:0; left:39%; z-index:2; }
+// .fixed2{ position:fixed; top:70px; right: 0; left: 0; z-index:2; }
+
+
+/*-----------headerTop start ------------*/
+#headerTop {
+    position: relative;
+    line-height: 28px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    text-align: center;
+    z-index: 1000;
+    .header_tl {
+        float: left;
+        width: 500px;
+        li{
+            float: left;
+            i {
+                display: inline-block;
+                position: absolute;
+                width: 14px;
+                height: 14px;
+                background: url("../images/sprite.fw.png") no-repeat; 
+            }
+            i.prev1 {
+                background-position: 0 0;
+                top: 8px;
+                left: 40px;                 
+            }
+            i.prev2 {
+                background-position: -13px 0;
+                top: 8px;
+                left: 208px;      
+            }
+            i.behind {
+                background-position: -27px 0;
+                top: 8px;
+                left: 188px;  
+
+            }
+            &:hover i.behind {
+                background-position: -27px -23px;
+            }
+            a{
+                display: block;
+                padding: 0 16px;
+                color: #444444;
+            }
+            a.dz {
+                padding-right: 20px;
+            }
+            a.zp {
+                padding-left: 22px;
+            }
+            &:hover a.zp {
+                color: #f90;
+            }
+            a.pj {
+                padding-left: 5px;
+            }
+            &:hover a{
+                color: skyblue;
+            }
+        }
+    }
+    .header_tr {
+        float: right;
+        width: 430px;
+        li {
+            float: left;
+            a {
+                display: block;
+                padding: 0 5px;
+                color: #444444;
+
+            }
+            a.fankui{
+                    color: #f00;
+            }
+            &:hover a{
+                color: skyblue;
+            }
+        }     
+    }
+}
+/*----------headerTop end ---------------*/
+/*------------header_newyear start*/
+#index_topadv {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    background: url("../images/xunnianwei.gif") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+    a {
+        display: block;
+    }          
+}
+/*---------- header start ---------*/
+#header {
+    padding-top: 20px;
+    .header_l {
+        width: 268px;
+        height: 94px;
+        background: url("../images/epetdoglogo.png") no-repeat;
+            text-indent: -2000em;
+    }
+    .header_c {
+        width: 498px;
+        padding:17px 0 9px 23px;
+        .form {
+            .input {
+                width: 380px;
+                height: 34px;
+                padding-left: 15px;
+                border: 2px solid #459D36;
+                border-right: none;
+            }
+            .btn { 
+                width: 75px;
+                line-height: 33px;
+                cursor: pointer;
+                background: #459D36;
+                color: #fff;
+            }          
+            .btn:hover {
+                box-shadow: 0 0 8px rgba(0,0,0,.4);
+            }
+        }
+        ul {
+            padding-top: 14px;
+            li {
+                float: left;
+                font-size: 14px;
+                color: #999;
+                a {
+                    display: block;
+                    padding: 3px 0;
+                    span {
+                        display: block;
+                        line-height: 14px;
+                        padding: 0 8px;
+                        border-right: 1px solid #666;
+                        color: #999;
+                    }
+                    span.active {
+                        color: #f00;
+                    }
+                    &:hover span {
+                        color: #000;
+                    }  
+                } 
+                // &:hover a {
+                //     background: #ff0;
+                // }
+            }
+        }
+    }
+    .phonecode {
+        width:220px;
+        height: 34px;
+        padding: 6px 0 54px 18px;
+        background: url("../images/phonecode.png") no-repeat center center;    
+    }
+    .gobuy {
+        padding: 17px 0 37px 0;  
+        position: relative;
+        i {
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            left: 0px;
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            background: #459D36; 
+            margin-right: 10px;
+        }
+        a {
+            display: block;
+            width: 130px;
+            line-height: 38px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 8px 8px;
+            font-size: 12px;
+            color: #666;
+            span {
+                color: #f00;
+            }
+            
+        }
+    }
+}
+/*---------- header start ---------*/
+/*------------- nav start --------*/
+// #nav {
+//     padding-top: 10px;
+//     // position: relative;
+//     .maincates-title {
+//         width: 216px;
+//         border: 1px solid #ccc;
+//         span {
+//             float: left;
+//             position: relative;
+//             line-height: 34px;
+//             padding: 0 25px;
+//             i {
+//                 display: inline-block;
+//                 position: absolute;
+//                 width: 20px;
+//                 height: 16px;
+//                 background: url("../images/sprite.fw.png") no-repeat -78px 0;
+//             }
+//         } 
+//         .types {
+//             i {
+//                 background-position: -235px 0;
+//                 top: 10px;
+//                 left: 64px;
+//             }
+//             &:hover i {
+//                 background-position: -235px -23px;
+//             }
+//         }               
+//         .category {
+//             i {
+//                 background-position: -255px 0;
+//                 top: 10px;
+//                 left: 93px;
+//             }
+//             &:hover i {
+//                 background-position: -255px -23px;
+//             }
+//         }    
+//     }
+//     .fenlei {
+//         background: pink;
+//         position: absolute;
+//         top: 48px;
+//         left: 40px;
+//         li {
+//             float: left;
+//             h3 {
+//                 width: 218px;
+//                 padding: 0 5px;
+//                 line-height: 50px;
+//                 font-size: 14px;
+//                 border-bottom: 1px dotted #ccc;        
+//             }
+//         }
+//     }
+//     .menus {
+//         ul {
+//             li {
+//                 float: left;
+//                 padding: 0 25px;
+//                 position: relative;
+//                 transition: transform 2s;
+//                 a {
+//                     display: block;
+//                     line-height: 34px;
+//                     float: left;
+//                     font-size: 16px;
+//                     font-weight: bold;
+//                     color: #000;    
+//                 }
+//                 &:hover a {
+//                     color: #459D36;
+//                 }
+//                 i {
+//                     display: inline-block;
+//                     position: absolute;
+//                     left: -1px;
+//                     top: 8px;
+//                     float: left;
+//                     width: 24px;
+//                     height: 18px;
+//                     background: url("../images/sprite.fw.png") no-repeat -41px 0;
+//                 }
+//                 i.newdress {
+//                     position: absolute;
+//                     left: 73px;
+//                     top: -8px;
+//                     width: 17px;
+//                     height: 21px;
+//                     background: url("../images/new.gif") no-repeat;
+//                 }
+//                 // &:hover i:not(.newdress) {
+//                 //     // transform: rotate(360deg);
+//                 //     transform:scale(1.2) rotate(360deg);
+//                 // }
+//             }
+            
+//         }
+//     }
+// }
+
+/*------------- nav end ------------*/

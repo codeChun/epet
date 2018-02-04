@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>register</title>
+</head>
+<body>
+    <div id="register">
+        <div class="container clearfix">
+            <div class="re-header">
+                <h1></h1>
+            </div>
+    <form method="post" action="/register.html" id="regform">
+            <input type="hidden" name="do" value="postSubmit">
+            <input type="hidden" name="inajax" value="1">
+            <input type="hidden" name="formhash" value="859fe8e2c8" />
+            <input type="hidden" name="postsubmit" value="true" />
+            <input type="hidden" name="referer" id="referer" value="http://www.epet.com" />
+            <div class="overflow w1100 ct Registercontent" >
+                <div class=" ct Registertext" id="register">
+                    <div class="rela mb Registerinput">
+                        <span class="ft16 textright inblock">手机号：</span>
+                        <input tabindex="1" type="text" name="phone" id="phone"  placeholder="请输入手机号码"  />
+                        <div class="abs Registerok " id="phonemsg_img" style="display: none;" >
+                            <img src="https://static.epetbar.com/passport/new/images/ok_03.jpg"/>
+                        </div>
+                        <div class="abs Registererror" id="phonemsg_div" style="width: 150px;display: none;">
+                            <span id="phonemsg">请输入手机号码</span>
+                        </div>
+                    </div>
+                    <div class="overflow mb Registerinput Yanzhengma rela" style="overflow: visible;">
+                        <span class="ft16 textright inblock">验证码：</span>
+                        <input tabindex="2" type="text" name="varify" id="regvairfy"  placeholder="请输入图片内容" />
+                        <div class="overflow inblock Registeryanzheng rela" >
+                            <img style="position: absolute;top:-7px;left:-2px;" src="share/seccode.html?hash=4131&amp;height=60&amp;width=105&amp;name=register_seccode" id="varifyimgreg" class="codevar" title="看不清?换一张" align="absbottom"  />
+                            <a href="javascript:void(0);" style="position: absolute;right:9px;" class="inblock ft14 ftc c999" onclick="freshcode($('#varifyimgreg'),105,60,'register_seccode')"><img id="xuanzhuan" src="https://static.epetbar.com/passport/new/images/renfren_03.jpg"/>&ensp;换一换</a>
+                        </div>
+                        <div class="abs Registerok" style="display: none;" id="varify_img">
+                            <img src="https://static.epetbar.com/passport/new/images/ok_03.jpg"/>
+                        </div>
+                        <div class="abs Registererror" name="varify_msg" id="varify_msg_div" style="width: 150px;display: none;" >
+                            <span id="varify_msg">请输入验证码</span>
+                        </div>
+                    </div>
+                    <div class="overflow mb Registerinput Yanzhengma Duanxinyanzhengma rela" style="overflow: visible;" >
+                        <span class="ft16 textright inblock">短信验证码：</span>
+                        <input tabindex="3" type="text" name="msgcode" id="regphonecode"  placeholder="验证码" />
+                        <a href="javascript:void(0);"  onclick="send_Phonecode('register')" id="phonecodebtnregister" class="overflow inblock Registeryanzheng ft14 c999 ftc ">
+                            <span> 获取验证码 </span>
+                        </a>
+                        <div class="abs Registerok" style="display: none;" id="msgcode_img">
+                            <img  src="https://static.epetbar.com/passport/new/images/ok_03.jpg"/>
+                        </div>
+                        <div class="abs Registererror" id="msgcode_msg_div" style="width: 150px;display: none;">
+                            <span id="msgcode_msg" ></span>
+                        </div>
+                    </div>
+                    <div class="rela mb Registerinput" >
+                        <span class="ft16 textright inblock">用户名：</span>
+                        <input tabindex="4" type="text" name="nickname"  id="nickname" maxlength="20"  placeholder="用户名" />
+                        <div class="abs Registerok" style="display: none;" id="nickname_img">
+                            <img src="https://static.epetbar.com/passport/new/images/ok_03.jpg"/>
+                        </div>
+                        <div class="abs Registererror" id="nickname_msg_div" style="width: 150px;display: none;">
+                            <span id="nickname_msg"></span>
+                        </div>
+                    </div>
+                    <div class=" mb Registerinput rela" >
+                        <span class="ft16 textright inblock"> 密码：</span>
+                        <input tabindex="5" type="password" autocomplete="new-password" class="logpass" name="password" id="passwordr" maxlength="20"  onkeyup="getlevel()" id=""  placeholder="密码（8-20位，区分大小写）" />
+                        <div class="abs Registerok" style="display: none;" id="password_img">
+                            <img src="https://static.epetbar.com/passport/new/images/ok_03.jpg"/>
+                        </div>
+                        <div class="abs Registererror" style="width:150px;display: none;" id="password_msg_div">
+                            <span id="password_msg">请输入密码</span>
+                        </div>
+                    </div>
+                    <div class="overflow mb Pwdqiangdu" style="display: none;" id="qiangdu">
+                        <span class="block ftc fl " id="leval0">弱</span>
+                        <span class="block ftc fl" id="leval1">中</span>
+                        <span class="block ftc fl" id="leval2">强</span>
+                    </div>
+                    <div class="mb Registerinput rela">
+                        <span class="ft16 textright inblock"> 确认密码：</span>
+                        <input tabindex="6" type="password"  autocomplete="new-password"  class="logpass"  maxlength="20" name="passwordag" id="passwordag"  placeholder="确认密码" />
+                        <div class="abs Registerok"  style="display: none;" id="passwordag_img">
+                            <img src="https://static.epetbar.com/passport/new/images/ok_03.jpg"/>
+                        </div>
+                        <div class="abs Registererror" id="passwordag_msg_div" style="width: 150px;display: none;">
+                            <span id="passwordag_msg">请输入确认密码</span>
+                        </div>
+                    </div>
+                    <div class="overflow mb Pwdqiangdu">
+                        <input type="checkbox"  checked="checked" name="agrement"/>
+                        <span class="Xieyi">我已阅读并接受E宠<a href="#" target="_blank">《用户使用协议》</a></span>
+                    </div>
+                    <a id="re_btn" name="re_btn">立即注册</a>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
