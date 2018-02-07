@@ -1,0 +1,77 @@
+.banner .focus { position: relative; width: 770px; height: 360px; overflow: hidden; }
+
+.banner .focus ul { position: absolute; overflow: hidden; }
+
+.banner .focus ul li { float: left; }
+
+.banner .focus ul li img { display: block; }
+
+.banner .focus .page { position: absolute; right: 0; bottom: 0; padding: 10px; }
+
+.banner .focus .page span { display: inline-block; margin: 0 5px; width: 30px; height: 30px; line-height: 30px; background-color: rgba(0, 0, 0, 0.6); text-align: center; color: #fff; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+.banner .focus .page span.active { background-color: rgba(255, 0, 0, 0.8); }
+
+.banner .banner_r ul li { position: relative; width: 300px; height: 120px; transition: all 0.5s; }
+
+.banner .banner_r ul li img { display: block; }
+
+.banner .banner_r ul li:hover { transform: translateX(-20px); }
+
+#surprise { margin: 30px 0; }
+
+#surprise .container { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+
+#surprise .container .sur_l img { display: block; width: 100%; }
+
+#surprise .container .sur_r { margin-left: 15px; }
+
+#surprise .container .sur_r .sur_rt { width: 800px; height: 66px; margin: 0 20px; border-bottom: 1px dashed #efefef; overflow: hidden; }
+
+#surprise .container .sur_r .sur_rt li { float: left; padding: 20px; position: relative; }
+
+#surprise .container .sur_r .sur_rt li a, #surprise .container .sur_r .sur_rt li span { display: block; color: #999; font-size: 14px; padding: 0 15px; }
+
+#surprise .container .sur_r .sur_rt li:hover a { color: #666; font-size: 16px; font-weight: bold; }
+
+#surprise .container .sur_r .sur_rt li:hover span { color: #666; font-size: 16px; font-weight: bold; border-bottom: 2px solid #f00; }
+
+#surprise .container .sur_r .sur_rb { padding-top: 50px; }
+
+#surprise .container .sur_r .sur_rb li { position: relative; float: left; padding-top: 30px; }
+
+#surprise .container .sur_r .sur_rb li i { display: block; width: 54px; height: 54px; background: url("../images/sprite.fw.png") no-repeat 0 -77px; position: absolute; top: -30px; right: 0; }
+
+#surprise .container .sur_r .sur_rb li img { display: block; margin: 0 auto; width: 80%; transition: all 1s; }
+
+#surprise .container .sur_r .sur_rb li img:hover { transform: translateY(-8px); }
+
+#surprise .container .sur_r .sur_rb li a { display: block; width: 200px; height: 40px; font-size: 12px; color: #000; }
+
+#surprise .container .sur_r .sur_rb li p { width: 160px; padding: 10px 0; margin-left: 20px; border-bottom: 5px solid #ccc; font-size: 12px; }
+
+#surprise .container .sur_r .sur_rb li p span { font-size: 18px; font-weight: bold; color: #f00; }
+
+#surprise .container .sur_r .sur_rb li .jiesu { margin: 10px 50px 0 50px; width: 100px; line-height: 40px; text-align: center; background: #ccc; border-radius: 20px; font-size: 16px; color: #fff; }
+
+#surprise .container .sur_r .sur_rb li .jiesu:hover { background: #f90; }
+
+.zhuliang { margin: 30px 0; }
+
+.zhuliang .container .zl_tit { border-bottom: 1px solid #459D36; }
+
+.zhuliang .container .zl_tit h3 { width: 200px; height: 34px; line-height: 28px; padding-left: 40px; background: url("../images/zhuliang.png") no-repeat; font-size: 18px; }
+
+.zhuliang .container .zl_tit ul { height: 34px; border: 1px solid #ccc; border-bottom: 0 none; }
+
+.zhuliang .container .zl_tit ul li { float: left; }
+
+.zhuliang .container .zl_tit ul li a { display: block; height: 34px; padding-top: 11px; }
+
+.zhuliang .container .zl_tit ul li span { display: block; height: 12px; line-height: 12px; padding: 0 20px; font-size: 12px; border-right: 1px solid #CCCCCC; }
+
+.zhuliang .container .zl_tit ul li:hover a { height: 34px; border: 1px solid #C81624; border-bottom: 0 none; border-top-width: 3px; margin-left: -1px; padding-top: 8px; }
+
+.zhuliang .container .zl_tit ul li:hover span { border-right: 0 none; }
+
+.zhuliang .container .zl_tit ul li .last:hover a { margin-right: -2px; }

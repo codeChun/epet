@@ -1,0 +1,57 @@
+#footer { background: #D4D4D4; }
+
+#footer .footer_t { border-bottom: 1px solid #999; }
+
+#footer .footer_t ul { padding: 17px 0; }
+
+#footer .footer_t ul li { width: 200px; float: left; position: relative; transition: all 1s; }
+
+#footer .footer_t ul li a { display: block; line-height: 62px; font-size: 18px; font-weight: bold; color: #444; }
+
+#footer .footer_t ul li a img { display: inline-block; width: 62px; height: 62px; border-radius: 50%; margin-right: 10px; }
+
+#footer .footer_t ul li:hover { transform: translateY(-8px); }
+
+#footer .footer_c .container { border-bottom: 1px solid #999; padding: 25px 0; }
+
+#footer .footer_c .container .footer_cl { width: 350px; }
+
+#footer .footer_c .container .footer_cl h2 img { display: block; }
+
+#footer .footer_c .container .footer_cl .rexian { width: 220px; }
+
+#footer .footer_c .container .footer_cl .rexian h3 { font-size: 14px; font-weight: bold; }
+
+#footer .footer_c .container .footer_cl .rexian p { line-height: 40px; font-size: 20px; color: #666; }
+
+#footer .footer_c .container .footer_cl .rexian p span { font-size: 12px; }
+
+#footer .footer_c .container .footer_cc dl { float: left; padding: 0 35px; font-size: 14px; }
+
+#footer .footer_c .container .footer_cc dl dt { margin-bottom: 20px; font-weight: bold; color: #666; }
+
+#footer .footer_c .container .footer_cc dl dd { line-height: 26px; }
+
+#footer .footer_c .container .footer_cc dl dd a { color: #444444; }
+
+#footer .footer_c .container .footer_cc dl dd:hover a { color: #ed4044; text-decoration: underline; }
+
+#footer .footer_c .container .footer_cr p { font-size: 12px; line-height: 20px; text-align: center; }
+
+#footer .footer_c .container .footer_cr .xzapp { margin-right: 70px; }
+
+#footer .footer_c .container .footer_cr .xzapp img { display: block; margin-top: 8px; }
+
+#footer .footer_c .container .footer_cr .gzweixin img { display: block; margin-top: 8px; }
+
+#footer .flinks { padding: 20px 0; font-size: 12px; }
+
+#footer .flinks span { color: #999; }
+
+#footer .flinks a { color: #999; padding: 0 8px; }
+
+#footer .flinks a:hover { color: #ed4044; text-decoration: underline; }
+
+#footer .fsupport a, #footer .fsupport span { display: inline-block; width: 80px; height: 27px; background: url("../images/sprite.fw.png") no-repeat 0 -283px; }
+
+#footer .footercopy p { padding: 30px 0; text-align: center; font-size: 12px; }

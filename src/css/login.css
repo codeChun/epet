@@ -1,0 +1,25 @@
+#login #reg_header .denglu a { color: #000; font-size: 14px; }
+
+#login #reg_header .denglu a:hover { color: #2fb4f1; }
+
+#login .log { width: 100%; height: 628px; background: url("../images/epetbar01.jpg") no-repeat; background-size: cover; padding-top: 90px; }
+
+#login .log .logdiv { background: #fff; padding: 0 36px 30px 36px; }
+
+#login .log .logdiv .logdiv_t span { display: inline-block; width: 148px; line-height: 80px; text-align: center; border-bottom: 1px solid #ccc; }
+
+#login .log .logdiv .logdiv_t span:hover { border-bottom-color: #459D36; }
+
+#login .log .logdiv .logdiv_c { position: relative; }
+
+#login .log .logdiv .logdiv_c span { display: inline-block; width: 23px; height: 23px; background: url("../images/sprite.fw.png") no-repeat -85px -44px; position: absolute; top: 30px; left: 10px; }
+
+#login .log .logdiv .logdiv_c input { width: 296px; line-height: 45px; border: 1px solid #ccc; margin-top: 20px; padding-left: 40px; }
+
+#login .log .logdiv .logdiv_b { padding-top: 20px; }
+
+#login .log .logdiv .logdiv_b span, #login .log .logdiv .logdiv_b a { font-size: 14px; color: #666; display: inline-block; }
+
+#login .log .logdiv .logdiv_b a:hover { color: #248DCC; }
+
+#login .log .logdiv .logdiv_b .logbtn { width: 296px; line-height: 45px; border-radius: 6px; margin-top: 20px; letter-spacing: 25px; font-size: 22px; color: #fff; background: #33CB98; cursor: pointer; }

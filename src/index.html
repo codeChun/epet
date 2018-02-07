@@ -5,160 +5,94 @@
     <title>epet</title>
     <link rel="stylesheet" type="text/css" href="css/base.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="lib/jquery-3.2.1.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(function($) {
+            $("#pageHeader").load("html/header.html");
+            $("#pageFooter").load("html/footer.html");   
+        });
+    </script>
+    <script src="js/common.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
 </head>
 <body>
     <div id="epet">
-        <!-- headerTop start -->
-        <div id="headerTop">
+        <header id="pageHeader"></header>
+        <div class="banner">
             <div class="container clearfix">
-                <div class="header_tl clearfix">
-                    <ul class="fl">
-                        <li>
-                            <i class="prev1"></i>
-                            <a href="#">E宠首页</a>
-                        </li>
-                        <li>送至:</li>
-                        <li>
-                            <a href="#" class="dz">
-                                广东
-                                <i class="behind"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <i class="prev2"></i>
-                            <a href="#" class="zp">E宠就是正品</a>
-                        </li>
-                        <li>
-                            <a href="#" class="pj">评价(<span>608.4万</span>)</a>
-                        </li>
+                <div class="focus banner_l fl">
+                    <ul>
+                        <li><img src="images/epetbar01.jpg" alt="" /></li>
+                        <li><img src="images/epetbar02.jpg" alt="" /></li>
+                        <li><img src="images/epetbar03.jpg" alt="" /></li>
+                        <li><img src="images/epetbar04.jpg" alt="" /></li>
+                        <li><img src="images/epetbar05.jpg" alt="" /></li>
+                        <li><img src="images/epetbar06.jpg" alt="" /></li>
                     </ul>
                 </div>
-                <div class="header_tr clearfix">
-                    <ul class="fr">
-                        <li>
-                            <a href="#login">[登录]</a>
-                        </li>
-                        <li>
-                            <a href="#register">注册</a>
-                        </li>
-                        <li>
-                            <i></i>
-                            <a href="#">购物车</a>
-                        </li>
-                        <li>
-                            <i></i>
-                            <a href="#">我的E宠</a>
-                            <i></i>
-                        </li>
-                        <li>
-                            <i></i>
-                            <a href="#">收藏</a>
-                            <i></i>
-                        </li>
-                        <li>
-                            <i></i>
-                            <a href="#">手机版</a>
-                        </li>
-                        <li>
-                            <a href="#" class="fankui">问题反馈</a>
-                        </li>
+                <div class="fr banner_r">
+                    <ul>
+                        <li><img src="images/ganggu.png" alt="" /></li>
+                        <li><img src="images/tiyanguan.png" alt="" /></li>
+                        <li><img src="images/wangxren.png" alt="" /></li>
                     </ul>
-                </div>   
+                </div>    
             </div>
         </div>
-        <!-- headerTop end -->
-        <!-- index_topadv start -->
-        <div id="index_topadv">
+        <div id="surprise">
             <div class="container clearfix">
-                <a href="#"></a>  
-            </div>
-        </div>
-        <!-- index_topadv end -->
-        <!-- header start -->
-        <div id="header">
-            <div class="container clearfix">
-                <h1 id="logo" class="fl header_l" title="E宠商城">E宠</h1>
-                <div class="fl header_c">
-                    <form action="#" class="form">
-                        <input type="text" placeholder="风来客" class="input" /><button class="btn">搜索</button>
-                    </form>
-                    <ul class="clearfix">
-                        <li>热门搜索:</li>
-                        <li><a href="#" ><span class="active">渴望狗粮</span></a></li>
-                        <li><a href="#"><span>发育宝新系列</span></a></li>
-                        <li><a href="#"><span>谷登GOLDEN保健品</span></a></li>
-                        <li><a href="#"><span>天衡宝狗粮</span></a></li>
+                <div class="sur_l fl"><img src="images/surprise.png"/></div>
+                <div class="sur_r fl">
+                    <ul class="sur_rt clearfix">
+                        <li><a href="#">09:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
+                        <li><a href="#">10:00</a><span>已结束</span></li>
                     </ul>
-                </div>
-                <div class="phonecode fl"></div>
-                <div class="gobuy fr">
-                    <i></i>
-                    <a href="#">
-                        购物车(<span>0</span>)
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- header end -->
-        <!-- nav start -->
-        <div id="nav">
-            <div class="container clearfix">
-                <div class="maincates-title fl">
-                    <h2 class="clearfix">
-                        <span class="types">狗狗<i></i></span>
-                        <span class="category">商品分类<i></i></span>  
-                    </h2>       
-                </div>
-                <!-- <div class="fenlei">
-                    <ul>            
-                        <li>
-                            <h3>
-                                <i></i>
-                                <a href="#">主粮</a>
-                                <span>1274</span>      
-                                <a href="#">零食</a>
-                                <span>2402</span>
-                                <i class="last_i"></i>
-                            </h3>
-                        </li> 
-                    </ul>   
-                </div>  --> 
-                <div class="menus fl">
-                    <ul class="clearfix">
-                        <li>
-                            <a href="#">
-                                <img src="../images/epethk-logo.png"/>
-                            </a>
-                        </li>
+                    <ul class="sur_rb clearfix">
                         <li>
                             <i></i>
-                            <a href="#">品牌特卖</a>
+                            <img src="images/surprise01.jpg" alt="" />
+                            <a href="#">开饭乐 切刻奶味磨牙股 200g</a>
+                            <p><span>￥2.99</span><del>29.90</del></p>
+                            <a href="#" class="jiesu">已结束</a>
                         </li>
-                        <li>
-                            <a href="#">潮品视频</a>
-                        </li>
-                        <li>
-                            <i></i>
-                            <a href="#">服饰城</a>
-                            <i class="newdress"></i>
-                        </li>
-                        <li>
-                            <i></i>
-                            <a href="#">E宠课堂</a>
-                        </li>
-                        <li>
-                            <i></i>
-                            <a href="#">萌爪联盟</a>
-                        </li>
-                        <li>
-                            <i></i>
-                            <a href="#">清仓特价</a>
-                        </li>
+                        <li><i></i><img src="images/surprise02.jpg" alt="" /><a href="#">美卡MAKAR 七彩糖果苹果造型犬用单碗 粉色大号</a>
+                            <p><span>￥2.99</span><del>29.90</del></p>
+                            <a href="#" class="jiesu">已结束</a></li>
+                        <li><i></i><img src="images/surprise03.jpg" alt="" /><a href="#">拍拖宝贝 犬用除臭饼干袋装280g</a>
+                            <p><span>￥2.99</span><del>29.90</del></p>
+                            <a href="#" class="jiesu">已结束</a></li>
+                        <li><i></i><img src="images/surprise04.jpg" alt="" /><a href="#">怡润 黑芝麻牛肉粒方 220g</a>
+                            <p><span>￥2.99</span><del>29.90</del></p>
+                            <a href="#" class="jiesu">已结束</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <!-- nav end -->
+        <div class="zhuliang">
+            <div class="container">
+                <div class="zl_tit clearfix">
+                    <h3 class="fl">狗狗主粮</h3>
+                    <ul class="fr clearfix">
+                        <li><a href="#"><span>热门</span></a></li>
+                        <li><a href="#"><span>进口狗粮</span></a></li>
+                        <li><a href="#"><span>国产狗粮</span></a></li>
+                        <li><a href="#"><span>散装狗粮</span></a></li>
+                        <li class="last"><a href="#"><span style="border-right: 0 none;">处方狗粮</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer id="pageFooter"></footer>
     </div>
 </body>
 </html>

@@ -35,7 +35,6 @@ gulp.task('jtSass',function(){
 	gulp.watch('./src/sass/*.scss',['compileSass'])
 });
 
-
 // 合并压缩js文件
 var concat = require('gulp-concat');
 // var uglify = require('gulp-uglify');

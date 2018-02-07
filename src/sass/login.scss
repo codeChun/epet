@@ -1,0 +1,74 @@
+#login{
+    #reg_header {
+        .denglu {
+            a {
+                color: #000;
+                font-size: 14px;
+            }
+            a:hover { color: #2fb4f1;}
+        }
+    }
+    .log {
+        width:100%;
+        height: 628px;   
+        background: url("../images/epetbar01.jpg") no-repeat;
+        background-size: cover;
+        padding-top: 90px;
+        .logdiv {
+            background: #fff;
+            padding: 0 36px 30px 36px;
+            .logdiv_t {
+                span {
+                    display: inline-block;
+                    width: 148px;
+                    line-height: 80px;
+                    text-align: center;
+                    border-bottom: 1px solid #ccc;
+                }
+                span:hover {
+                    border-bottom-color: #459D36;
+                }
+            }
+            .logdiv_c {
+                position: relative;
+                span {
+                    display: inline-block;
+                    width:23px;
+                    height: 23px;
+                    background: url("../images/sprite.fw.png") no-repeat -85px -44px;
+                    position: absolute; 
+                    top: 30px;
+                    left: 10px;
+                }
+                input {
+                    width: 296px;
+                    line-height: 45px;
+                    border: 1px solid #ccc;
+                    margin-top: 20px;
+                    padding-left: 40px;
+                }
+            }
+            .logdiv_b {
+                padding-top: 20px;
+                span,a{
+                    font-size: 14px; color: #666;
+                    display: inline-block;
+                }
+                a:hover {
+                    color: #248DCC;
+                }
+                .logbtn {
+                    width: 296px;
+                    line-height: 45px;
+                    border-radius: 6px;
+                    margin-top: 20px;
+                    letter-spacing: 25px;
+                    font-size: 22px;
+                    color: #fff;
+                    background: #33CB98;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+} 

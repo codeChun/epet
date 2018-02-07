@@ -1,0 +1,413 @@
+/*-----------headerTop start ------------*/
+#headerTop {
+    position: relative;
+    line-height: 28px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    text-align: center;
+    z-index: 1000;
+    .header_tl {
+        float: left;
+        width: 500px;
+        position: relative;
+        ul {
+            li{
+                float: left;
+                position: relative;
+                i {
+                    display: inline-block;
+                    position: absolute;
+                    width: 14px;
+                    height: 14px;
+                    background: url("../images/sprite.fw.png") no-repeat; 
+                }
+                i.prev1 {
+                    background-position: 0 0;
+                    top: 8px;
+                    left: 0px;                 
+                }
+                i.prev2 {
+                    background-position: -13px 0;
+                    top: 8px;
+                    left: 0px;      
+                }
+                i.behind {
+                    background-position: -27px 0;
+                    top: 8px;
+                    left: 40px;  
+                }
+                &:hover i.behind {
+                    background-position: -27px -23px;
+                }
+                a{
+                    display: block;
+                    padding: 0 16px;
+                    color: #444444;
+                }
+                a.dz {
+                    padding-right: 20px;
+                }
+                a.zp {
+                    padding-left: 22px;
+                }
+                &:hover a.zp {
+                    color: #f90;
+                }
+                a.pj {
+                    padding-left: 5px;
+                }
+                &:hover a{
+                    color: skyblue;
+                }
+                .weizhi {
+                    display: none;
+                    width: 400px;
+                    background: #fff;
+                    position: absolute;
+                    top: 30px;
+                    left: 0px;
+                    .place {
+                        padding-top: 5px;
+                        height: 35px;
+                        border-bottom: 1px solid #ccc;
+                        li {
+                            float: left;
+                            margin-right: 5px;
+                            a {
+                                display: block;
+                                width: 80px;
+                                height: 30px;
+                                background: #f7f7f7;
+                                line-height: 30px;
+                                text-align: center;
+                                border: 1px solid #ccc;
+                                border-bottom-color: #fff;
+                                float: left;
+                                color: #dd0;
+                                margin-right: 5px;
+                            }
+                            &:nth-child(1) {
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                    .huafen {
+                        p {
+                            padding: 10px 0;
+                            span {
+                                display: inline-block;
+                                float: left;
+                                line-height: 16px;
+                                padding: 0 10px;
+                                border-right: 1px dotted #ccc;
+                                color: #666; 
+                            }
+                        a {
+                            display: inline-block;
+                            padding: 2px 10px;
+                            float: left;
+                            line-height: 12px;
+                            color: #555;
+                            &:hover {
+                            color: #fff;
+                            background: #FB6003;
+                            }
+                        }
+                    }
+                }
+            }
+            &:hover .weizhi {display: block;}
+            }   
+        }     
+    }
+    .header_tr {
+        float: right;
+        width: 550px;
+        li {
+            float: left;
+            position: relative;
+            i.prev1 {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                background: url("../images/sprite.fw.png") no-repeat -80px -23px;
+                position: absolute;
+                top: 6px;
+                left: 0px;
+            }
+            i.prev2 {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                background: url("../images/sprite.fw.png") no-repeat -174px -23px;
+                position: absolute;
+                top: 6px;
+                left: 63px;
+            }
+            i.prev2 {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                background: url("../images/sprite.fw.png") no-repeat -174px -23px;
+                position: absolute;
+                top: 6px;
+                left: 63px;
+                
+            }
+            &:hover i{
+                    background-position: -174px -47px;
+                }
+            ul {
+                position: absolute;
+                display: none;
+                li {width: 120px;
+                    padding: 0 20px; 
+                    line-height: 30px;
+                    text-align: center;
+                    background: white;
+                }  
+            }
+            &:hover ul {
+                display: block;
+            }
+            i.prev2_1 {
+                left: 45px;
+            }
+            a {
+                display: block;
+                padding: 0 20px;
+                color: #444444;
+            }
+            a.fankui{
+                    color: #f00;
+            }
+            &:hover a{
+                color: skyblue;
+            }
+        }     
+    }
+}
+/*----------headerTop end ---------------*/
+/*------------header_newyear start*/
+#indexTopadv {
+    
+    a {
+        display: block;
+        width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    background: url("../images/xunnianwei.gif") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+    }          
+}
+/*---------- header start ---------*/
+#header {
+    padding-top: 20px;
+    .header_l {
+        width: 268px;
+        height: 94px;
+        background: url("../images/epetdoglogo.png") no-repeat;
+            text-indent: -2000em;
+    }
+    .header_c {
+        width: 498px;
+        padding:17px 0 9px 23px;
+        .form {
+            .input {
+                width: 380px;
+                height: 34px;
+                padding-left: 15px;
+                border: 2px solid #459D36;
+                border-right: none;
+            }
+            .btn { 
+                width: 75px;
+                height: 34px;
+                cursor: pointer;
+                background: #459D36;
+                color: #fff;
+            }          
+            .btn:hover {
+                box-shadow: 0 0 8px rgba(0,0,0,.4);
+            }
+        }
+        ul {
+            padding-top: 14px;
+            li {
+                float: left;
+                font-size: 14px;
+                color: #999;
+                a {
+                    display: block;
+                    padding: 3px 0;
+                    span {
+                        display: block;
+                        line-height: 14px;
+                        padding: 0 8px;
+                        border-right: 1px solid #666;
+                        color: #999;
+                    }
+                    span.active {
+                        color: #f00;
+                    }
+                    &:hover span {
+                        color: #000;
+                    }  
+                } 
+            }
+        }
+    }
+    .phonecode {
+        width:220px;
+        height: 34px;
+        padding: 6px 0 54px 18px;
+        background: url("../images/phonecode.png") no-repeat center center;    
+    }
+    .gobuy {
+        padding: 17px 0 37px 0;  
+        position: relative;
+        i {
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            left: 0px;
+            width: 38px;
+            height: 38px;
+            border-radius: 8px;
+            background: green url("../images/sprite.fw.png") no-repeat -49px -44px; 
+            margin-right: 10px;
+        }
+        a {
+            display: block;
+            width: 130px;
+            line-height: 38px;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 8px 8px;
+            font-size: 12px;
+            color: #666;
+            span {
+                color: #f00;
+            }
+            
+        }
+    }
+}
+/*---------- header end ------*/
+
+/*---------- nav start ---------*/
+#nav {
+    padding-top: 10px;
+    .nav_l {
+        width: 228px;
+        li {
+            float: left;
+            width: 114px;
+            position: relative;
+            a {
+                display: block;
+                border: 1px solid #ccc;
+                text-align: center;
+                line-height: 34px;
+                color: #000;
+            }
+            i {
+                display: block;
+                width: 20px;
+                height: 16px;
+                background: url("../images/sprite.fw.png") no-repeat -235px 0;
+                position: absolute;
+                top: 12px;
+                right: 15px;
+            }
+            .fenlei0 {
+                background-position: -255px 0;
+                right: 3px;
+            }
+            &:hover i {
+                background-position: -235px -23px;
+            }
+            &:hover .fenlei0 {
+                background-position: -255px -23px;
+            }
+
+            .category {
+                position: absolute;
+                top: 39px; 
+                left: -114px;
+                background: #FCFCFC;
+                z-index: 1000;
+                .navtwo {
+                    li{
+                        width: 228px;
+                        position: relative;
+                        padding: 0 5px;
+                        border-bottom: 1px dotted #ccc;
+                        i {
+                            display: inline-block;
+                            width: 15px;
+                            height: 15px;
+                            background: url("../images/sprite.fw.png") no-repeat -78px 0;
+                            position: absolute;
+                            top: 16px;
+                            left: 15px;
+                        }
+                        .behind1 {
+                            background-position: -216px 0;
+                            left: 200px;
+                        }
+                        a {
+                            display: inline-block;
+                            padding: 6px 3px 10px 30px;
+                            border: 0;
+                            color: #333;
+                            font-size: 14px;
+                        }
+                        a:hover {color: #248DCC;}
+                        span{
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #666;
+                        }
+                    }   
+                    li:hover{
+                        border-bottom: 1px solid #459D36;
+                        background: #fff;
+                    }  
+                    li:hover .behind1 { display: none;}
+                }
+            }
+        }   
+    }
+    .nav_r {
+        li {
+            float: left;
+            position: relative;
+            i {
+                display: block;
+                width: 24px;
+                height: 18px;
+                background: url("../images/sprite.fw.png") no-repeat -41px 0;
+                position: absolute;
+                top: 8px;
+                left: 5px;
+            }
+            a {
+                display: block;
+                padding: 0 32px;
+                line-height: 34px;
+                color: #000;
+                font-weight: bold;
+                img { height: 34px;}
+            }
+            &:hover a{
+                color: #459D36;
+            }
+            
+        }
+    }
+}

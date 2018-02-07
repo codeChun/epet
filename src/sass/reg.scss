@@ -1,0 +1,148 @@
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+#reg {
+    min-width: 1100px;
+}
+
+/*---------- reg_header start---------*/
+#reg_header {
+    padding: 30px 0;
+    .reg_logo {
+        width: 127px;
+        height: 60px; 
+        background: url("../images/reglogo.png") no-repeat;
+        text-indent: -3000em;   
+    }
+    span {
+        display: block;
+        padding-top: 10px;
+    }
+    .denglu {
+        span {
+            font-size: 14px;
+            color: #666;
+        }
+        a {
+            display: block;
+            float: left;
+            padding: 8px;
+            font-size: 16px;
+            color: #427fd2;    
+        }
+    }
+}
+
+/*--------  zhuce start --------*/
+#zhuce {
+    // background: pink;
+    #regform {
+        padding: 50px 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        .f_content {
+            width: 516px;
+            margin-left: 228px;
+            font-size: 16px;
+            label {
+                display: inline-block;
+                width: 96px;
+                text-align: right;
+            }
+            input {
+                width: 415px;
+                line-height: 52px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                padding-left: 15px;
+            }
+            .yzm {
+                #yzm {
+                    width: 205px;                
+                }
+                .tucontent {
+                    display: inline-block;
+                    width: 202px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    .yzcode {
+                        display: inline-block;
+                        width: 101px;
+                        line-height: 52px;
+                        background: pink;
+                        float: left;
+                        text-align: center;   
+                    }
+                    .hyh {
+                        display: inline-block;
+                        float: right;
+                        line-height: 52px; 
+                        position: relative;
+                        color: #666;
+                        padding: 0 20px;
+                        i {
+                            display: inline-block;
+                            position: absolute;
+                            top: 19px;
+                            left: 10px;
+                            width: 15px;
+                            height: 15px; 
+                            background: url("../images/sprite.fw.png") no-repeat -328px 0;
+                        }
+                        
+                    }
+                }
+            }
+            .dxyzm {
+               #dxyzm {
+                width: 255px;
+               }
+               #phonecode {
+                    display: inline-block;
+                    float: right;
+                    width: 154px;
+                    line-height: 52px;
+                    border: 1px solid #33CB98;
+                    border-radius: 5px;
+                    margin-left: 5px;
+                    text-align: center;
+                    color: #666;
+               }
+               #phonecode:hover {
+                    background: #33CB98;
+                    color: #fff;
+               }
+            }
+            .xieyi{
+                display: inline-block;
+                width: 20px;
+                margin-left: 100px;
+            }
+            #btn {
+                margin: 30px 0 0 100px;
+                background: #ccc;
+                font-size: 22px;
+                color: #fff;
+            }
+            
+        }
+    } 
+}
+
+#reg_footer {
+    padding: 70px 0;
+    p {
+        text-align: center;  
+        font-size: 12px;
+        color: #666; 
+        a {
+            color: #666; 
+        } 
+        a:hover{
+            color: #248dcc;
+        }
+    }
+}
