@@ -20,7 +20,6 @@
     //  echo 'fail';
     // }
 
-
     //print_r($row[0]);
 
 
@@ -30,7 +29,6 @@
         echo 'fail';
     }
     
-
     // 释放查询内存(销毁)
     $result->free();
 

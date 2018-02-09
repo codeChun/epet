@@ -160,8 +160,7 @@
 }
 .zhuliang {
     margin: 30px 0;
-    .zl_tit {
-        // border-bottom: 1px solid #459D36;
+    .zl_t {
         h3 {
             width: 200px;
             height: 34px;
@@ -176,6 +175,7 @@
             border-bottom: 0 none;
             li { 
                 float: left;
+                // position: relative;
                 a { 
                     display: block;
                     height: 34px;
@@ -206,14 +206,91 @@
             }
         }
     }
+    .zl_c {
+        .zl_ct {
+            .remen {
+                    .remen_t {
+                        li {
+                            position: relative;
+                        }
+                        .rem01 {
+                            float: left;
+                            position: relative;
+                            border: 1px solid #ccc;
+                            border-left: 0 none;
+                            .p {
+                                width: 200px;
+                                position: absolute;
+                                top: 20px;
+                                left: 40px;
+                                z-index: 200;
+                            }
+                            img {
+                                float: left;
+                                display: block;
+                                transition: all 1s;
+                            }  
+                            img:hover {
+                                transform: translateX(-3px);
+                                z-index: -10;
+                            }
+                        }
+                        .rem02{
+                            float: right;
+                            ul {
+                                li {
+                                    height: 150px;
+                                    position: relative;
+                                    border: 1px solid #ccc;
+                                    border-left: 0 none;
+                                    .p {
+                                        width: 200px;
+                                        position: absolute;
+                                        top: 20px;
+                                        left: 40px;
+                                        z-index: 200;
+                                    }
+                                    img {
+                                        float: left;
+                                        display: block;
+                                        transition: all 1s;
+                                    }     
+                                    img:hover {
+                                        transform: translateX(-3px);
+                                    }                              
+                                }
+                            }
+                        }
+                    }
+                    .remen_b {
+                        li {
+                            float: left;
+                            border-right: 1px solid #ccc;
+                            border-bottom: 1px solid #ccc;
+                            position: relative;
+                            .p {
+                                width: 200px;
+                                position: absolute;
+                                top: 20px;
+                                left: 40px;
+                                z-index: 200;
+                            }
+                            img {
+                                float: left;
+                                display: block;
+                                transition: all 1s;
+                            }
+                            img:hover {
+                                transform: translateX(-3px);
+                            }   
+                        }
+                    }
+            }
+
+        }
+    }
+    
 }
-// #box {
-//     width:200px;
-//     height:200px;
-//     border:1px solid #ddd;
-//     overflow:auto;
-//     div { height:1000px;
-//     }
-// }
+
 
 
