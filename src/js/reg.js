@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    
+
     var phone = document.getElementById("#phone");
     var dxyzm = document.getElementById('#dxyzm');
     var huoqu = document.getElementById('.huoqu');
@@ -65,7 +65,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     var btn = document.querySelector("#btn");
-    // console.log(btn);
     btn.onclick = function(){
         // e = e||window.event;
         /*---- 登录名 ：  必填，数字或字母组合，不能少于3位 -----*/
@@ -97,6 +96,25 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
     }
+});
 
+jQuery(function($){
+    $('#btn').on('click',function(){
+        $.ajax({
+            url:'../api/reg.php',
+            data:{
+                username:$('#username').val(),
+                password:$('#password').val()
+            },
+            success:function(data){
+                console.log(data);
+                if(data === 'success'){
+                    location.href = 'login.html';
+                }else if(data === 'fail'){
+                    $('#username').addClass('danger');
+                }
+            }
+        }) 
+    })
+});
 
-})

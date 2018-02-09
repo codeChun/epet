@@ -7,27 +7,6 @@
     <link rel="stylesheet" type="text/css" href="../css/reg.css" />
     <link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
     <script src="../lib/jquery-3.2.1.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        jQuery(function($){
-            $('#btn').on('click',function(){
-                $.ajax({
-                    url:'../api/reg.php',
-                    data:{
-                        username:$('#username').val(),
-                        password:$('#password').val()
-                    },
-                    success:function(data){
-                        console.log(data);
-                        if(data === 'success'){
-                            location.href = 'login.html';
-                        }else if(data === 'fail'){
-                            $('#username').addClass('danger');
-                        }
-                    }
-                }) 
-            })
-        });
-    </script> 
     <script src="../js/reg.js" type="text/javascript"></script>
 </head>
 <body>

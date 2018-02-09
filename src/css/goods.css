@@ -22,6 +22,10 @@
 
 #datalist .gmd { min-height: 550px; padding-top: 20px; }
 
-#datalist .gmd .gmd_l { width: 450px; margin-top: 60px; }
+#datalist .gmd .gmd_l { margin: 80px; }
+
+#datalist .gmd .gmd_l .smallList img { width: 40px; float: left; margin-right: 8px; }
+
+#datalist .gmd .gmd_l .gds-zoom-big img { min-width: 1000px; }
 
 #datalist .gmd .gmd_r { width: 710px; height: 640px; background: url("../images/xqneirong.png") no-repeat; }
