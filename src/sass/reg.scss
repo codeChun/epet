@@ -63,36 +63,16 @@
                 #yzm {
                     width: 205px;                
                 }
-                .tucontent {
-                    display: inline-block;
-                    width: 202px;
-                    border: 1px solid #ccc;
-                    border-radius: 5px;
+                .tucontent {                   
                     .yzcode {
                         display: inline-block;
-                        width: 101px;
+                        padding: 0 80px;
                         line-height: 52px;
-                        background: pink;
+                        background: #33cb98;
                         float: left;
-                        text-align: center;   
-                    }
-                    .hyh {
-                        display: inline-block;
-                        float: right;
-                        line-height: 52px; 
-                        position: relative;
-                        color: #666;
-                        padding: 0 20px;
-                        i {
-                            display: inline-block;
-                            position: absolute;
-                            top: 19px;
-                            left: 10px;
-                            width: 15px;
-                            height: 15px; 
-                            background: url("../images/sprite.fw.png") no-repeat -328px 0;
-                        }
-                        
+                        text-align: center;
+                        color: #fff;
+                        border-radius: 5px;
                     }
                 }
             }
@@ -127,7 +107,21 @@
                 font-size: 22px;
                 color: #fff;
             }
-            
+            #btn:hover {
+                background: #33cb98;
+            }
+            #jiance{
+                text-align: center;
+                padding-left: 55px;
+                display:none;
+                span{
+                    display: block;
+                    float: left;
+                    width: 80px;
+                    height: 15px;
+                    background: #fff;
+                }
+            } 
         }
     } 
 }

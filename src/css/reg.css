@@ -24,13 +24,7 @@
 
 #zhuce #regform .f_content .yzm #yzm { width: 205px; }
 
-#zhuce #regform .f_content .yzm .tucontent { display: inline-block; width: 202px; border: 1px solid #ccc; border-radius: 5px; }
-
-#zhuce #regform .f_content .yzm .tucontent .yzcode { display: inline-block; width: 101px; line-height: 52px; background: pink; float: left; text-align: center; }
-
-#zhuce #regform .f_content .yzm .tucontent .hyh { display: inline-block; float: right; line-height: 52px; position: relative; color: #666; padding: 0 20px; }
-
-#zhuce #regform .f_content .yzm .tucontent .hyh i { display: inline-block; position: absolute; top: 19px; left: 10px; width: 15px; height: 15px; background: url("../images/sprite.fw.png") no-repeat -328px 0; }
+#zhuce #regform .f_content .yzm .tucontent .yzcode { display: inline-block; padding: 0 80px; line-height: 52px; background: #33cb98; float: left; text-align: center; color: #fff; border-radius: 5px; }
 
 #zhuce #regform .f_content .dxyzm #dxyzm { width: 255px; }
 
@@ -41,6 +35,12 @@
 #zhuce #regform .f_content .xieyi { display: inline-block; width: 20px; margin-left: 100px; }
 
 #zhuce #regform .f_content #btn { margin: 30px 0 0 100px; background: #ccc; font-size: 22px; color: #fff; }
+
+#zhuce #regform .f_content #btn:hover { background: #33cb98; }
+
+#zhuce #regform .f_content #jiance { text-align: center; padding-left: 55px; display: none; }
+
+#zhuce #regform .f_content #jiance span { display: block; float: left; width: 80px; height: 15px; background: #fff; }
 
 #reg_footer { padding: 70px 0; }
 

@@ -1,0 +1,74 @@
+#goodsHeader {
+    .sp {
+        .category { 
+            display: none;
+        }
+    } 
+}
+#datalist {
+    .xiangq {
+        margin: 10px 0;
+        .fenlei1 {
+            li {
+                float: left; 
+                position: relative;
+                width: 150px;
+                line-height: 24px;
+                border: 1px solid #ccc; 
+                margin-right: 15px;
+                font-size: 12px;
+                color: #666;
+                text-align: center;
+                i {
+                    display: inline-block;
+                    width: 15px;
+                    height: 15px;
+                    background: url("../images/sprite.fw.png") no-repeat -27px 0;
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
+                }
+                .fenlei2{
+                    display: none;
+                    position: absolute;
+                    width: 150px;
+                    top: 24px;
+                    left: -1px;
+                    
+                    li {
+                        border: 1px solid #ccc;
+                        border-top: none;
+                        border-bottom-style: dashed ;
+                        a {
+                            color: #427fd2;
+                        }
+                        &:hover a{
+                            color: #000;
+                        }
+                    }
+                    li:hover {
+                        background: #999;
+                    }
+                }
+                &:hover .fenlei2 { 
+                    display: block;
+                }
+            }
+            li:last-child { border: 0 none; }
+        }
+    }
+    .gmd {
+        min-height: 550px;
+        padding-top: 20px;
+        .gmd_l {
+            width: 450px;
+            margin-top: 60px;
+        }
+        .gmd_r {
+            width: 710px;
+            height: 640px;
+            background: url("../images/xqneirong.png") no-repeat;
+        }
+    }
+    
+}

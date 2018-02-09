@@ -1,6 +1,8 @@
 .banner {
+    position:relative;
     .focus {
-        position:relative;
+        position: absolute;
+        left: 258px;
         width:770px;
         height:360px;
         overflow:hidden;
@@ -38,14 +40,14 @@
         ul {
             li {
                 position: relative;
-                width: 300px;
+                width: 200px;
                 height: 120px;
-                transition: all 0.5s;
+                transition: all 0.3s;
                 img {
                     display: block; 
                 }
                 &:hover{
-                transform: translateX(-20px);
+                transform: translateX(-5px);
             }   
             }
             
@@ -158,50 +160,48 @@
 }
 .zhuliang {
     margin: 30px 0;
-    .container { 
-        .zl_tit {
-            border-bottom: 1px solid #459D36;
-            h3 {
-                width: 200px;
-                height: 34px;
-                line-height: 28px;
-                padding-left: 40px;
-                background:url("../images/zhuliang.png") no-repeat;
-                font-size: 18px;
-            }    
-            ul { 
-                height: 34px;
-                border:1px solid #ccc;
-                border-bottom: 0 none;
-                li { 
-                    float: left;
-                    a { 
-                        display: block;
-                        height: 34px;
-                        padding-top:11px;
-                    }
-                    span { 
-                        display: block;
-                        height: 12px;
-                        line-height: 12px;
-                        padding:0 20px;
-                        font-size:12px;
-                        border-right:1px solid #CCCCCC;
-                    }
-                    &:hover a {
-                        height:34px;
-                        border:1px solid #C81624;
-                        border-bottom: 0 none;
-                        border-top-width:3px;
-                        margin-left:-1px;
-                        padding-top:8px;
-                    }
-                    &:hover span {
-                        border-right:0 none;
-                    }
-                    .last:hover a { 
-                        margin-right:-2px;
-                    }
+    .zl_tit {
+        // border-bottom: 1px solid #459D36;
+        h3 {
+            width: 200px;
+            height: 34px;
+            line-height: 28px;
+            padding-left: 40px;
+            background:url("../images/zhuliang.png") no-repeat;
+            font-size: 18px;
+        }    
+        ul { 
+            height: 34px;
+            border:1px solid #ccc;
+            border-bottom: 0 none;
+            li { 
+                float: left;
+                a { 
+                    display: block;
+                    height: 34px;
+                    padding-top:11px;
+                }
+                span { 
+                    display: block;
+                    height: 12px;
+                    line-height: 12px;
+                    padding:0 20px;
+                    font-size:12px;
+                    border-right:1px solid #CCCCCC;
+                }
+                &:hover a {
+                    height:34px;
+                    border:1px solid green;
+                    border-bottom: 0 none;
+                    border-top-width:3px;
+                    margin-left:-1px;
+                    padding-top:8px;
+                }
+                &:hover span {
+                    border-right:0 none;
+                }
+                .last:hover a { 
+                    margin-right:-2px;
                 }
             }
         }

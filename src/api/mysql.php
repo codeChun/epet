@@ -1,10 +1,10 @@
 <?php
     // 创建连接
-    $conn = new mysqli('localhost', 'root', '', 'epet');
+    $conn = new mysqli('localhost', 'root', '', 'epetdata');
 
     // 查询Sql语句
     // 获取查询结果集（对象）
-    $result = $conn->query('select * from user order by age desc');
+    $result = $conn->query('select * from goods order by age desc');
 
     // var_dump($result->num_rows);
 

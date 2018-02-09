@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = 'jiaoxue';
+    $dbname = 'epetdata';
 
     // 创建连接
     $conn = new mysqli($servername, $username, $password, $dbname);

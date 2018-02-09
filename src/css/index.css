@@ -1,4 +1,6 @@
-.banner .focus { position: relative; width: 770px; height: 360px; overflow: hidden; }
+.banner { position: relative; }
+
+.banner .focus { position: absolute; left: 258px; width: 770px; height: 360px; overflow: hidden; }
 
 .banner .focus ul { position: absolute; overflow: hidden; }
 
@@ -12,11 +14,11 @@
 
 .banner .focus .page span.active { background-color: rgba(255, 0, 0, 0.8); }
 
-.banner .banner_r ul li { position: relative; width: 300px; height: 120px; transition: all 0.5s; }
+.banner .banner_r ul li { position: relative; width: 200px; height: 120px; transition: all 0.3s; }
 
 .banner .banner_r ul li img { display: block; }
 
-.banner .banner_r ul li:hover { transform: translateX(-20px); }
+.banner .banner_r ul li:hover { transform: translateX(-5px); }
 
 #surprise { margin: 30px 0; }
 
@@ -58,20 +60,18 @@
 
 .zhuliang { margin: 30px 0; }
 
-.zhuliang .container .zl_tit { border-bottom: 1px solid #459D36; }
+.zhuliang .zl_tit h3 { width: 200px; height: 34px; line-height: 28px; padding-left: 40px; background: url("../images/zhuliang.png") no-repeat; font-size: 18px; }
 
-.zhuliang .container .zl_tit h3 { width: 200px; height: 34px; line-height: 28px; padding-left: 40px; background: url("../images/zhuliang.png") no-repeat; font-size: 18px; }
+.zhuliang .zl_tit ul { height: 34px; border: 1px solid #ccc; border-bottom: 0 none; }
 
-.zhuliang .container .zl_tit ul { height: 34px; border: 1px solid #ccc; border-bottom: 0 none; }
+.zhuliang .zl_tit ul li { float: left; }
 
-.zhuliang .container .zl_tit ul li { float: left; }
+.zhuliang .zl_tit ul li a { display: block; height: 34px; padding-top: 11px; }
 
-.zhuliang .container .zl_tit ul li a { display: block; height: 34px; padding-top: 11px; }
+.zhuliang .zl_tit ul li span { display: block; height: 12px; line-height: 12px; padding: 0 20px; font-size: 12px; border-right: 1px solid #CCCCCC; }
 
-.zhuliang .container .zl_tit ul li span { display: block; height: 12px; line-height: 12px; padding: 0 20px; font-size: 12px; border-right: 1px solid #CCCCCC; }
+.zhuliang .zl_tit ul li:hover a { height: 34px; border: 1px solid green; border-bottom: 0 none; border-top-width: 3px; margin-left: -1px; padding-top: 8px; }
 
-.zhuliang .container .zl_tit ul li:hover a { height: 34px; border: 1px solid #C81624; border-bottom: 0 none; border-top-width: 3px; margin-left: -1px; padding-top: 8px; }
+.zhuliang .zl_tit ul li:hover span { border-right: 0 none; }
 
-.zhuliang .container .zl_tit ul li:hover span { border-right: 0 none; }
-
-.zhuliang .container .zl_tit ul li .last:hover a { margin-right: -2px; }
+.zhuliang .zl_tit ul li .last:hover a { margin-right: -2px; }

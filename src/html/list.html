@@ -3,24 +3,100 @@
 <head>
     <meta charset="UTF-8" />
     <title>商品列表</title>
-    <script src="lib/jquery-3.2.1.js"></script>
-    <script>
-        jQuery(function($){
-            $.ajax({
-                url:'../api/list.php',
-                dataType:'json',
-                data:{
-                    category:'nike'
-                },
-                success:function(data){
-                    console.log(data);
-                }
-            })
-        })
-    </script>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../js/list.js" type="text/javascript"></script>
 </head>
 <body>
-    <h1>商品列表</h1>
-    <div class="goodslist"></div>
+    <header id="pageHeader"></header>
+    <div id="datalist">
+        <div class="container clearfix">
+            <ul class="fenlei1 clearfix">
+                    <li>
+                        狗狗 22244 
+                        <i></i>
+                        <ul class="fenlei2">
+                            <li><a href="#">狗狗</a> 22244</li>
+                            <li><a href="#">猫猫</a> 10680</li>
+                        </ul>
+                    </li>  
+                    <li>
+                        狗狗零食 2399 
+                        <i></i>
+                        <ul class="fenlei2">
+                            <li><a href="#">狗狗主粮</a> 22244</li>
+                            <li><a href="#">狗狗零食</a> 10680</li>
+                            <li><a href="#">狗狗服饰</a> 22244</li>
+                            <li><a href="#">狗狗窝垫</a> 10680</li>
+                            <li><a href="#">狗狗生活</a> 22244</li>
+                            <li><a href="#">狗狗玩具</a> 10680</li>
+                            <li><a href="#">狗狗医疗</a> 22244</li>
+                            <li><a href="#">狗狗保健</a> 10680</li>
+                            <li><a href="#">狗狗牵引</a> 22244</li>
+                            <li><a href="#">狗狗美容</a> 10680</li>
+                            <li><a href="#">狗狗周边</a> 22244</li>
+                            <li><a href="#">狗狗新品</a> 10680</li>
+                            <li><a href="#">狗狗清洁</a> 22244</li>
+                        </ul>
+                    </li>  
+                    <li>
+                        狗狗磨牙洁齿 757 
+                        <i></i>
+                        <ul class="fenlei2">
+                            <li><a href="#">磨牙洁齿</a> 757</li>
+                            <li><a href="#">肉制零食</a> 779</li>
+                            <li><a href="#">点心饮料</a> 230</li>
+                            <li><a href="#">罐头湿粮</a> 244</li>
+                            <li><a href="#">磨牙饼干</a> 680</li>
+                            <li><a href="#">冻干零食</a> 255</li>
+                        </ul>
+                    </li>  
+                    <li>商品详情</li>
+            </ul>
+            <div class="datalil fl">
+                <ul class="lingshi">
+                    <li><h2>狗狗零食</h2></li>
+                    <li><i></i><a href="#">磨牙洁齿</a><span>756</span></li>
+                    <li><i></i><a href="#">磨牙洁齿</a><span>756</span></li>
+                    <li><i></i><a href="#">磨牙洁齿</a><span>756</span></li>
+                    <li><i></i><a href="#">磨牙洁齿</a><span>756</span></li>
+                    <li><i></i><a href="#">磨牙洁齿</a><span>756</span></li>
+                    <li><i></i><a href="#">磨牙洁齿</a><span>756</span></li>
+                </ul>
+                <div class="adv01"><img src="../images/datalistadv.png"/></div>
+                <div class="adv02"><img src="../images/datalistadv02.png"/></div>
+            </div>
+            <div class="liebiao fr">
+                <div class="paixun">
+                    <div class="moren clearfix">
+                        <ul class="jiage fl">
+                            <li><span>默认</span></li>
+                            <li><span>销量</span><i></i></li>
+                            <li><span>人气</span><i></i></li>
+                            <li><span>新品</span><i></i></li>
+                            <li><span>评论</span><i></i></li>
+                            <li><span>价格</span><i style="background-position: -303px -27px"></i></li>
+                        </ul>
+                        <ul class="yeshu fr">
+                            <li>共找到<span class="s1">2401</span>件商品</li>
+                            <li>1/41</li>
+                            <li><span class="sx">上一页</span></li>
+                            <li><span class="sx">下一页</span></li>
+                        </ul>
+                    </div>
+                    <ul class="songhuo">
+                        <li>送货至: </li>        
+                        <li>广东 广州 天河区<i></i></li>  
+                        <li><input type="checkbox"/>只显示有货</li>        
+                        <li><i></i>列表显示</li>        
+                    </ul>
+                </div>
+                <ul class="datalir clearfix"></ul>
+            </div>
+        </div>    
+    </div>
+    <footer id="pageFooter"></footer> 
+    <!-- <div id="page"></div> -->
 </body>
 </html>

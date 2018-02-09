@@ -1,0 +1,89 @@
+#pageHeader .category { display: none; }
+
+#datalist { background: #f9f7f7; }
+
+#datalist .fenlei1 { padding: 20px 0; }
+
+#datalist .fenlei1 li { float: left; position: relative; width: 150px; line-height: 24px; border: 1px solid #ccc; margin-right: 15px; font-size: 12px; color: #666; text-align: center; }
+
+#datalist .fenlei1 li i { display: inline-block; width: 15px; height: 15px; background: url("../images/sprite.fw.png") no-repeat -27px 0; position: absolute; top: 5px; right: 10px; }
+
+#datalist .fenlei1 li .fenlei2 { display: none; position: absolute; width: 150px; top: 24px; left: -1px; background: #fff; }
+
+#datalist .fenlei1 li .fenlei2 li { border: 1px solid #ccc; border-top: none; border-bottom-style: dashed; }
+
+#datalist .fenlei1 li .fenlei2 li a { color: #427fd2; }
+
+#datalist .fenlei1 li .fenlei2 li:hover a { color: #000; }
+
+#datalist .fenlei1 li .fenlei2 li:hover { background: #999; }
+
+#datalist .fenlei1 li:hover .fenlei2 { display: block; }
+
+#datalist .fenlei1 li li:last-child { border: 0 none; }
+
+#datalist .datalil { width: 200px; height: 500px; }
+
+#datalist .datalil .lingshi { background: #fff; border: 1px solid #ddd; }
+
+#datalist .datalil .lingshi li { position: relative; text-align: center; border-bottom: 1px dotted #ddd; font-size: 14px; }
+
+#datalist .datalil .lingshi li h2 { line-height: 40px; text-align: left; padding-left: 20px; font-size: 18px; font-weight: bold; }
+
+#datalist .datalil .lingshi li i { display: inline-block; width: 30px; height: 30px; background: url("../images/sprite.fw.png") no-repeat 0 -138px; position: absolute; top: 9px; left: 12px; }
+
+#datalist .datalil .lingshi li a { display: inline-block; line-height: 50px; margin-right: 10px; color: #666; }
+
+#datalist .datalil .lingshi li:hover a { color: skyblue; }
+
+#datalist .datalil .lingshi li span { display: inline-block; color: #666; }
+
+#datalist .datalil .lingshi li:last-child { border-bottom-color: #fff; }
+
+#datalist .datalil .adv01 { margin: 20px 0; border: 1px solid #ccc; }
+
+#datalist .liebiao { width: 980px; }
+
+#datalist .liebiao .paixun { width: 980px; height: 100px; border: 1px solid #ccc; background: #fff; }
+
+#datalist .liebiao .paixun .moren { border-bottom: 1px solid #ccc; }
+
+#datalist .liebiao .paixun .moren .jiage li { float: left; position: relative; border-right: 1px solid #ccc; }
+
+#datalist .liebiao .paixun .moren .jiage li span { display: block; line-height: 50px; padding: 0 20px 0 15px; color: #666; }
+
+#datalist .liebiao .paixun .moren .jiage li i { display: inline-block; width: 12px; height: 15px; background: url("../images/sprite.fw.png") no-repeat -285px -26px; position: absolute; top: 18px; right: 5px; }
+
+#datalist .liebiao .paixun .moren .yeshu li { float: left; line-height: 50px; text-align: center; margin: 0 5px; color: #666; }
+
+#datalist .liebiao .paixun .moren .yeshu li .sx { display: inline-block; line-height: 22px; padding: 0 10px; border: 1px solid #ccc; }
+
+#datalist .liebiao .paixun .moren .yeshu li .s1 { color: #f00; }
+
+#datalist .liebiao .paixun .songhuo li { float: left; padding: 0 10px; line-height: 50px; text-align: center; }
+
+#datalist .liebiao .paixun .songhuo li:nth-child(2) { margin-top: 10px; line-height: 30px; border: 1px solid #ccc; }
+
+#datalist .liebiao .datalir { margin-top: 20px; }
+
+#datalist .liebiao .datalir li { width: 235px; height: 405px; float: left; padding: 14px 10px 0 10px; border: 1px solid #ccc; margin: 0 0 15px 10px; background: #fff; }
+
+#datalist .liebiao .datalir li img { display: block; margin: 0 auto; transition: all 0.5s; }
+
+#datalist .liebiao .datalir li img:hover { transform: translateY(-5px); }
+
+#datalist .liebiao .datalir li h4 { height: 60px; line-height: 30px; color: #666; }
+
+#datalist .liebiao .datalir li .price { margin: 20px 0 10px 0; line-height: 30px; text-align: center; }
+
+#datalist .liebiao .datalir li .price del { font-size: 14px; color: #666; }
+
+#datalist .liebiao .datalir li .price span { color: #f90; font-weight: bold; }
+
+#datalist .liebiao .datalir li .yishou { color: #666; font-size: 12px; overflow: hidden; }
+
+#datalist .liebiao .datalir li .yishou .ys { float: left; }
+
+#datalist .liebiao .datalir li .yishou .hd { float: right; }
+
+#datalist .liebiao .datalir li:hover { border-color: #459d36; }

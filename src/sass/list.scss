@@ -1,0 +1,240 @@
+#pageHeader {
+    .category {
+        display: none;
+    }
+}
+#datalist{
+    background: #f9f7f7;
+    .fenlei1 {
+        padding: 20px 0;
+        li {
+            float: left; 
+            position: relative;
+            width: 150px;
+            line-height: 24px;
+            border: 1px solid #ccc; 
+            margin-right: 15px;
+            font-size: 12px;
+            color: #666;
+            text-align: center;
+            i {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                background: url("../images/sprite.fw.png") no-repeat -27px 0;
+                position: absolute;
+                top: 5px;
+                right: 10px;
+            }
+            .fenlei2{
+                display: none;
+                position: absolute;
+                width: 150px;
+                top: 24px;
+                left: -1px; 
+                background: #fff;
+                li {
+                    border: 1px solid #ccc;
+                    border-top: none;
+                    border-bottom-style: dashed;
+                    a {
+                        color: #427fd2;
+                    }
+                    &:hover a{
+                        color: #000;
+                    }
+                }
+                li:hover {
+                    background: #999;
+                }
+            }
+            &:hover .fenlei2 { 
+                display: block;
+            }
+            li:last-child { border: 0 none; }
+        }
+        
+    }
+    .datalil {
+        width: 200px;
+        height: 500px;
+        .lingshi {
+            background: #fff;
+            border: 1px solid #ddd;
+            li {
+                position: relative;
+                text-align: center;
+                border-bottom: 1px dotted #ddd;
+                font-size: 14px;
+
+                h2 {
+                    line-height: 40px;
+                    text-align: left;
+                    padding-left: 20px;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+                i {
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    background: url("../images/sprite.fw.png") no-repeat 0 -138px;
+                    position: absolute;
+                    top: 9px;
+                    left: 12px;
+                }
+                a {
+                    display: inline-block;
+                    line-height: 50px;
+                    margin-right: 10px;
+                    color: #666;
+                }
+                &:hover a {
+                    color: skyblue;
+                }
+                span {
+                    display: inline-block;
+                    color: #666;
+                }
+            }
+            li:last-child {
+                border-bottom-color: #fff;
+            }
+        }
+        .adv01 {
+            margin: 20px 0;
+            border: 1px solid #ccc;
+        }
+
+    }
+    .liebiao {
+        width: 980px;
+        .paixun {
+            width: 980px;
+            height: 100px;
+            border: 1px solid #ccc;
+            background: #fff;
+            .moren {
+            border-bottom: 1px solid #ccc;
+                .jiage {
+                    li {
+                        float: left;
+                        position: relative;
+                        border-right: 1px solid #ccc;
+                        span {
+                            display: block;
+                            line-height: 50px; 
+                            padding: 0 20px 0 15px;
+                            color: #666;
+                        }
+                        i {
+                            display: inline-block;
+                            width:12px;
+                            height: 15px;
+                            background: url("../images/sprite.fw.png") no-repeat -285px -26px;
+                            position: absolute;
+                            top: 18px;
+                            right: 5px;
+                        }
+                    }
+                }
+                .yeshu {
+                    li {
+                        float: left;
+                        line-height: 50px;
+                        text-align: center;
+                        margin: 0 5px;
+                        color: #666;
+                        .sx {
+                            display: inline-block;
+                            line-height: 22px;
+                            padding: 0 10px;
+                            border: 1px solid #ccc;
+                        }
+                        .s1 { color: #f00;}
+                    }
+                }
+            }
+            .songhuo {
+                li {
+                    float: left;
+                    padding: 0 10px;
+                    line-height: 50px;
+                    text-align: center;
+                }
+                li:nth-child(2) {
+                    margin-top:10px;
+                    line-height: 30px;
+                    border: 1px solid #ccc;
+                }
+            }
+        }
+        .datalir {
+            margin-top: 20px;
+            li {
+                width: 235px;
+                height: 405px;
+                float: left;
+                padding: 14px 10px 0 10px;
+                border: 1px solid #ccc; 
+                margin: 0 0 15px 10px;
+                background: #fff;
+                img {
+                    display: block;
+                    margin: 0 auto;
+                    transition: all 0.5s;
+                }
+                img:hover {
+                    transform: translateY(-5px);
+                }    
+                h4 {
+                    height: 60px;
+                    line-height: 30px;
+                    // font-size: 16px;
+                    color: #666;
+                }
+                .price {
+                    margin: 20px 0 10px 0;
+                    line-height: 30px;
+                    text-align: center;
+                    del {
+                        font-size: 14px;
+                        color: #666;
+                    }
+                    span {
+                        color: #f90;
+                        font-weight: bold;
+                    }
+                }
+                .yishou {
+                    color: #666;
+                    font-size: 12px;
+                    overflow: hidden;
+                    .ys {
+                        float: left;
+                    }
+                    .hd {
+                        float: right;
+                    }
+                }
+            }
+            li:hover {
+                border-color: #459d36; 
+            }
+        }
+    }
+    
+}
+// #page {
+//     span {
+//         display:inline-block;
+//         margin:5px;
+//         width:40px;
+//         line-height:1.8;
+//         text-align: center;
+//         background-color:#dfdfdf;
+//         color:#666;
+//         }
+//     span.active{background-color:#fc0;color:#fff;}
+// }
+

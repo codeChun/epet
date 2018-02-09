@@ -65,6 +65,8 @@
 
 #headerTop .header_tr li:hover ul { display: block; }
 
+#headerTop .header_tr li:hover ul li:hover { color: skyblue; }
+
 #headerTop .header_tr li i.prev2_1 { left: 45px; }
 
 #headerTop .header_tr li a { display: block; padding: 0 20px; color: #444444; }
@@ -129,6 +131,14 @@
 #nav .nav_l li:hover i { background-position: -235px -23px; }
 
 #nav .nav_l li:hover .fenlei0 { background-position: -255px -23px; }
+
+#nav .nav_l li .gg { display: none; position: absolute; top: 38px; left: 0px; background: #FCFCFC; z-index: 1001; }
+
+#nav .nav_l li .gg li { width: 228px; border-bottom: 1px dotted #ccc; }
+
+#nav .nav_l li .gg li:hover { border-bottom: 1px solid #459D36; background: pink; }
+
+#nav .nav_l li:hover .gg, #nav .nav_l li:hover .category { display: block; }
 
 #nav .nav_l li .category { position: absolute; top: 39px; left: -114px; background: #FCFCFC; z-index: 1000; }
 

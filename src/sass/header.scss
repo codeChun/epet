@@ -170,6 +170,9 @@
             }
             &:hover ul {
                 display: block;
+                li:hover{
+                    color: skyblue;
+                }
             }
             i.prev2_1 {
                 left: 45px;
@@ -334,7 +337,25 @@
             &:hover .fenlei0 {
                 background-position: -255px -23px;
             }
-
+            .gg {
+                display: none;
+                position: absolute;
+                top: 38px; 
+                left: 0px;
+                background: #FCFCFC;
+                z-index: 1001;
+                li {
+                    width: 228px;
+                    border-bottom: 1px dotted #ccc;
+                }
+                li:hover{
+                        border-bottom: 1px solid #459D36;
+                        background: pink;
+                    }
+            }
+            &:hover .gg,&:hover .category {
+                    display: block;
+                }
             .category {
                 position: absolute;
                 top: 39px; 
